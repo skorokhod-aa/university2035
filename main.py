@@ -36,6 +36,7 @@ def strcounter(s):
     for sym in s:
         syms_counter[sym] = syms_counter.get(sym, 0) + 1
 
+    print('hello!')
     print(syms_counter)
 
 #O(N) = N
